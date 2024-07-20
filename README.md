@@ -8,6 +8,10 @@ Lista de ideias para negócios customizável e responsível feita em React e Tai
 
 ![App Screenshot](public/print.jpg)
 
+## Website
+
+Você pode utilizar a aplicação clicando nesse link 👉 [new-cart.surge.sh](https://new-cart.surge.sh)
+
 ## Iniciando
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
