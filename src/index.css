@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark td, .dark th{
+  border-bottom: 1px solid rgb(241 245 249);
+  border-right: 1px solid rgb(241 245 249);
+}
+td, th{
+  padding: 10px;
+  border-bottom: 1px solid rgb(11 22 40);
+  border-right: 1px solid rgb(11 22 40);
+}
+table tr:last-child td{
+  border-bottom: none;
+}
+table tr td:last-child, table tr th:last-child{
+  border-right: none;
+}
+
+table th:first-child{
+  border-radius:12px 0 0 0;
+}
+table th:last-child{
+  border-radius: 0 12px 0 0;
+}
+table tr:last-child td:last-child{
+  border-radius: 0 0 12px 0;
+}
+table tr:last-child td:first-child{
+  border-radius: 0 0 0 12px;
+}
+
+select{
+  padding-bottom: calc(0.5rem + 1px);
+  border-left: none;
+}
+
+.dark th, .dark table tr:nth-child(even){
+  background-color: rgb(11 22 40);
+}
+th, table tr:nth-child(even){
+  background-color: rgb(226 232 240);
+
+}
+.dark table tr:nth-child(odd){
+  background-color: rgb(24 35 53);
+}
+table tr:nth-child(odd){
+	background-color: rgb(241 245 249);
+}
+
+table tr th:nth-child(3), table tr td:nth-child(3){
+  border-right: none;
+}
