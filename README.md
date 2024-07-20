@@ -4,7 +4,7 @@
 
 Lista de ideias para negócios customizável e responsível feita em React e Tailwind.
 
-- https://github.com/mauricioraupp/reactTailwindProject
+- https://github.com/mauricioraupp/ListaNegocios
 
 ![App Screenshot](public/print.jpg)
 
@@ -21,8 +21,8 @@ O npm é um instância do Node.js, o que significa que se você baixar Node.js, 
 - Para baixar o projeto siga as instruções abaixo:
 
 ```
-1. git clone https://github.com/mauricioraupp/reactTailwindProject.git
-2. cd reactTailwindProject
+1. git clone https://github.com/mauricioraupp/ListaNegocios.git
+2. cd ListaNegocios
 ```
 
 - Instale as dependências:
